@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-  <UContainer>
+  <UContainer class="text-primary-500 select-none">
     {{ label }}
   </UContainer>
 </template>
