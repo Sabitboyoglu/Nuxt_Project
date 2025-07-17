@@ -1,5 +1,11 @@
+<script setup lang="ts">
+defineProps<{
+  label: string
+}>()
+</script>
+
 <template>
-  <div>
-    asd
-  </div>
+  <UContainer>
+    {{ label }}
+  </UContainer>
 </template>
